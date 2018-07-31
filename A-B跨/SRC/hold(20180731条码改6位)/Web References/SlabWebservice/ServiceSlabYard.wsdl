@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetColumnData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ColumnNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetColumnDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetColumnDataResult" type="tns:ArrayOfPileData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPileData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PileData" nillable="true" type="tns:PileData" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PileData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ColumnNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RowNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PileNO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LayerNO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MaterialNO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="POHO" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DeterminFlag" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetPlanMaterial">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PlanID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlanMaterialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPlanMaterialResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetColumnDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetColumnData" />
+  </wsdl:message>
+  <wsdl:message name="GetColumnDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetColumnDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPlanMaterialSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPlanMaterial" />
+  </wsdl:message>
+  <wsdl:message name="GetPlanMaterialSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPlanMaterialResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSlabYardSoap">
+    <wsdl:operation name="GetColumnData">
+      <wsdl:input message="tns:GetColumnDataSoapIn" />
+      <wsdl:output message="tns:GetColumnDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlanMaterial">
+      <wsdl:input message="tns:GetPlanMaterialSoapIn" />
+      <wsdl:output message="tns:GetPlanMaterialSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSlabYardSoap" type="tns:ServiceSlabYardSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetColumnData">
+      <soap:operation soapAction="http://tempuri.org/GetColumnData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlanMaterial">
+      <soap:operation soapAction="http://tempuri.org/GetPlanMaterial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSlabYardSoap12" type="tns:ServiceSlabYardSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetColumnData">
+      <soap12:operation soapAction="http://tempuri.org/GetColumnData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlanMaterial">
+      <soap12:operation soapAction="http://tempuri.org/GetPlanMaterial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceSlabYard">
+    <wsdl:port name="ServiceSlabYardSoap" binding="tns:ServiceSlabYardSoap">
+      <soap:address location="http://192.168.0.80/SlabYard/ServiceSlabYard.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSlabYardSoap12" binding="tns:ServiceSlabYardSoap12">
+      <soap12:address location="http://192.168.0.80/SlabYard/ServiceSlabYard.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

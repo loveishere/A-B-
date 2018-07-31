@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+  <!--<add key="Server IP" value="190.2.215.176"/>
+  <add key="Store Server Port" value="6001"/>-->
+  <add key="Server IP" value="192.168.0.80"/>
+  <add key="Store Server Port" value="10022"/>
+  <add key="Dock Server Port" value="7001"/>
+  <!--<add key="Storage" value="FTC"/>-->
+  <add key="Storage" value="FMA"/>
+  <add key="Device" value="WORKABOUTPRO3"/>
+  <add key="Debug" value="False"/>
+  <add key="VersionL" value="2.0.0.0"/>
+  <add key="VersionR" value="2.0.0.0"/>
+  <add key="Application Name" value="Store.exe"/>
+
+</configuration>

@@ -1,0 +1,143 @@
+D:\钢制品物流\程序\Store\Store\bin\Debug\Store.exe
+D:\钢制品物流\程序\Store\Store\bin\Debug\Store.pdb
+D:\钢制品物流\程序\Store\Store\bin\Debug\PsionTeklogixNet.dll
+D:\钢制品物流\程序\Store\Store\bin\Debug\System.Data.SqlServerCe.dll
+D:\钢制品物流\程序\Store\Store\bin\Debug\WCOM.dll
+D:\钢制品物流\程序\Store\Store\bin\Debug\WCOM.pdb
+D:\钢制品物流\程序\Store\Store\obj\Debug\ResolveAssemblyReference.cache
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.frmClear.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.frmLogin.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.frmMain.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.frmMessage.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.frmReceive2.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.InResearch.frmFrameIn.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.frmSend.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.frmSetup.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.InResearch.frmIn.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.InResearch.frmInKW.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.InResearch.frmInPlan.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.InResearch.frmInPlanCL.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.InResearch.frmInPlanZF.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.frmCLResearch.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.frmMain.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.frmOutPlan.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.frmOutPlanCL.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.frmOutPlanZF.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.tl.frmOut.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.tl.frmOutPlan.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.tl.frmOutPlanCL.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.tl.frmOutPlanZF.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.tl.frmSend.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOut.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutCP.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutPlan.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutPlanCL.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutPlanZF.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmSend.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zk.frmOut.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zk.frmOutPlan.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zk.frmOutPlanCL.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zk.frmOutPlanZF.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zk.frmSend.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zt.frmOut.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zt.frmOutPlan.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zt.frmOutPlanCL.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zt.frmOutPlanZF.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\hStore.Forms.OutResearch.zt.frmSend.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\Store.Properties.Resources.resources
+D:\钢制品物流\程序\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+D:\钢制品物流\程序\Store\Store\obj\Debug\Store.exe
+D:\钢制品物流\程序\Store\Store\obj\Debug\Store.pdb
+D:\钢制品物流\程序\Store\Store\bin\Debug\OpenNETCF.dll
+D:\钢制品物流\程序\Store\Store\bin\Debug\PtxSdkCpp.dll
+D:\钢制品物流\程序\Store\Store\bin\Debug\PtxSdkWwanCpp.dll
+D:\钢制品物流\程序\Store\Store\bin\Debug\PtxSdkCommon.dll
+D:\钢制品物流\程序\Store\Store\bin\Debug\PtxSdkWwanCommon.dll
+D:\钢制品物流\程序\Store\Store\bin\Debug\Connect.dll
+D:\钢制品物流\程序\Store\Store\bin\Debug\Connect.lib
+D:\钢制品物流\程序\Store\Store\obj\Debug\Store.Forms.frmWorkLogin.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\bin\Debug\Store.exe
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\bin\Debug\Store.pdb
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\bin\Debug\System.Data.SqlServerCe.dll
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\bin\Debug\System.Data.SqlServerCe.xml
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmClear.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmDebug.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmLogin.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmMain.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmMessage.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmQuality.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmWtd.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmWtdIn.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmWtdInCl.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.frmWtdOut.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.InResearch.frmFrameIn.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmSend.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.frmSetup.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.InResearch.frmIn.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.InResearch.frmInKW.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.InResearch.frmInPlan.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.InResearch.frmInPlanCL.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.InResearch.frmInPlanZF.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.frmCLResearch.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.frmMain.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.frmOutPlan.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.frmOutPlanCL.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.frmOutPlanZF.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.tl.frmOutPlan.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.frmOut.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutCP.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutPlan.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutPlanCL.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutPlanZF.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmSend.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.zk.frmOutPlan.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Forms.OutResearch.zt.frmOutPlan.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.Properties.Resources.resources
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\Store.exe
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\Store.pdb
+C:\Documents and Settings\xgp\My Documents\Visual Studio 2005\Projects\Store\obj\Debug\hStore.frmReceive.resources
+D:\运管改造\代码\Store\bin\Debug\Store.exe
+D:\运管改造\代码\Store\bin\Debug\Store.pdb
+D:\运管改造\代码\Store\bin\Debug\System.Data.SqlServerCe.dll
+D:\运管改造\代码\Store\bin\Debug\System.Data.SqlServerCe.xml
+D:\运管改造\代码\Store\obj\Debug\ResolveAssemblyReference.cache
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmClear.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmDebug.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmLogin.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmMain.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmMessage.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmQuality.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.frmReceive.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmWtd.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmWtdIn.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmWtdInCl.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.InResearch.frmFrameIn.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmSend.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmSetup.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.InResearch.frmIn.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.InResearch.frmInKW.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.InResearch.frmInPlan.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.InResearch.frmInPlanCL.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.InResearch.frmInPlanZF.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.frmCLResearch.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.frmMain.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.frmOutPlan.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.frmOutPlanCL.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.frmOutPlanZF.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.tl.frmOutPlan.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.frmOut.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutCP.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutPlan.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutPlanCL.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmOutPlanZF.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.zc.frmSend.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.zk.frmOutPlan.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.zt.frmOutPlan.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Properties.Resources.resources
+D:\运管改造\代码\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+D:\运管改造\代码\Store\obj\Debug\Store.exe
+D:\运管改造\代码\Store\obj\Debug\Store.pdb
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.OutResearch.tl.frmWagon.resources
+D:\运管改造\代码\Store\obj\Debug\hStore.Forms.frmWtdOut.resources

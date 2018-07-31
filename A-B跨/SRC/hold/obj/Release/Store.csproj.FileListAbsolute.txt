@@ -1,0 +1,247 @@
+D:\项目\自动化库区软件\程序\hold\obj\Release\ResolveAssemblyReference.cache
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.FrameIn.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.frmClear.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.frmDebug.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.frmLogin.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.frmMain.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.frmMessage.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.frmQuality.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.frmReceive.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.frmSxChange.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.frmSetup.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.InResearch.frmInPlan.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.InResearch.frmInPlanCL.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.InResearch.frmInPlanZF.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.frmCLResearch.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.frmMain.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlan.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanCL.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanZF.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.tl.frmOutPlan.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutCP.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlan.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanCL.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanZF.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.zk.frmOutPlan.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.OutResearch.zt.frmOutPlan.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Forms.frmDgv.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\hStore.Properties.Resources.resources
+D:\项目\自动化库区软件\程序\hold\obj\Release\Store.csproj.GenerateResource.Cache
+E:\C#\无人化手持\hold\bin\Release\store.sdf
+E:\C#\无人化手持\hold\bin\Release\PtxSdkCommon.dll
+E:\C#\无人化手持\hold\bin\Release\Store.exe
+E:\C#\无人化手持\hold\bin\Release\Store.pdb
+E:\C#\无人化手持\hold\bin\Release\MdsdkNet.dll
+E:\C#\无人化手持\hold\bin\Release\System.Data.OracleClient.dll
+E:\C#\无人化手持\hold\bin\Release\System.Transactions.dll
+E:\C#\无人化手持\hold\bin\Release\System.EnterpriseServices.dll
+E:\C#\无人化手持\hold\bin\Release\System.Web.dll
+E:\C#\无人化手持\hold\bin\Release\MdsdkNet.xml
+E:\C#\无人化手持\hold\bin\Release\System.EnterpriseServices.Wrapper.dll
+E:\C#\无人化手持\hold\obj\Release\ResolveAssemblyReference.cache
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.FrameIn.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmClear.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmClearA.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmDebug.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmLogin.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmMain.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmMessage.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmQuality.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.frmReceive.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmSxChange.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmSetup.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.InResearch.frmInPlan.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.InResearch.frmInPlanCL.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.InResearch.frmInPlanZF.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.frmCLResearch.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.frmMain.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlan.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanCL.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanZF.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.tl.frmOutPlan.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutCP.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlan.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanCL.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanZF.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.zk.frmOutPlan.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.OutResearch.zt.frmOutPlan.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Forms.frmDgv.resources
+E:\C#\无人化手持\hold\obj\Release\hStore.Properties.Resources.resources
+E:\C#\无人化手持\hold\obj\Release\Store.csproj.GenerateResource.Cache
+E:\C#\无人化手持\hold\obj\Release\Store.exe
+E:\C#\无人化手持\hold\obj\Release\Store.pdb
+E:\C#\新建文件夹\hold\bin\Release\store.sdf
+E:\C#\新建文件夹\hold\bin\Release\PtxSdkCommon.dll
+E:\C#\新建文件夹\hold\bin\Release\Store.exe
+E:\C#\新建文件夹\hold\bin\Release\Store.pdb
+E:\C#\新建文件夹\hold\bin\Release\MdsdkNet.dll
+E:\C#\新建文件夹\hold\bin\Release\System.Data.OracleClient.dll
+E:\C#\新建文件夹\hold\bin\Release\System.Transactions.dll
+E:\C#\新建文件夹\hold\bin\Release\System.EnterpriseServices.dll
+E:\C#\新建文件夹\hold\bin\Release\System.Web.dll
+E:\C#\新建文件夹\hold\bin\Release\MdsdkNet.xml
+E:\C#\新建文件夹\hold\bin\Release\System.EnterpriseServices.Wrapper.dll
+E:\C#\新建文件夹\hold\obj\Release\ResolveAssemblyReference.cache
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.FrameIn.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmClear.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmClearA.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmDebug.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmLogin.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmMain.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmMessage.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmQuality.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.frmReceive.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmSxChange.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmSetup.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.InResearch.frmInPlan.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.InResearch.frmInPlanCL.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.InResearch.frmInPlanZF.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.frmCLResearch.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.frmMain.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlan.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanCL.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanZF.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.tl.frmOutPlan.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutCP.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlan.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanCL.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanZF.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.zk.frmOutPlan.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.OutResearch.zt.frmOutPlan.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Forms.frmDgv.resources
+E:\C#\新建文件夹\hold\obj\Release\hStore.Properties.Resources.resources
+E:\C#\新建文件夹\hold\obj\Release\Store.csproj.GenerateResource.Cache
+E:\C#\新建文件夹\hold\obj\Release\Store.exe
+E:\C#\新建文件夹\hold\obj\Release\Store.pdb
+E:\C#\新建文件夹 (3)\hold\obj\Release\ResolveAssemblyReference.cache
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.FrameIn.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmClear.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmClearA.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmDebug.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmLogin.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmMain.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmMessage.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmQuality.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.frmReceive.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmSxChange.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmSetup.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.InResearch.frmInPlan.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.InResearch.frmInPlanCL.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.InResearch.frmInPlanZF.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.frmCLResearch.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.frmMain.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlan.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanCL.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanZF.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.tl.frmOutPlan.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutCP.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlan.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanCL.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanZF.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.zk.frmOutPlan.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.OutResearch.zt.frmOutPlan.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmDgv.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Properties.Resources.resources
+E:\C#\新建文件夹 (3)\hold\obj\Release\Store.csproj.GenerateResource.Cache
+E:\C#\新建文件夹 (3)\hold\obj\Release\Store.exe
+E:\C#\新建文件夹 (3)\hold\bin\Release\store.sdf
+E:\C#\新建文件夹 (3)\hold\bin\Release\PtxSdkCommon.dll
+E:\C#\新建文件夹 (3)\hold\bin\Release\Store.exe
+E:\C#\新建文件夹 (3)\hold\bin\Release\Store.pdb
+E:\C#\新建文件夹 (3)\hold\bin\Release\MdsdkNet.dll
+E:\C#\新建文件夹 (3)\hold\bin\Release\System.Data.OracleClient.dll
+E:\C#\新建文件夹 (3)\hold\bin\Release\System.Transactions.dll
+E:\C#\新建文件夹 (3)\hold\bin\Release\System.EnterpriseServices.dll
+E:\C#\新建文件夹 (3)\hold\bin\Release\System.Web.dll
+E:\C#\新建文件夹 (3)\hold\bin\Release\MdsdkNet.xml
+E:\C#\新建文件夹 (3)\hold\bin\Release\System.EnterpriseServices.Wrapper.dll
+E:\C#\新建文件夹 (3)\hold\obj\Release\Store.pdb
+E:\C#\新建文件夹 (3)\hold\obj\Release\hStore.Forms.frmDgv2.resources
+E:\C#\新建文件夹 (5)\hold\bin\Release\store.sdf
+E:\C#\新建文件夹 (5)\hold\bin\Release\PtxSdkCommon.dll
+E:\C#\新建文件夹 (5)\hold\bin\Release\Store.exe
+E:\C#\新建文件夹 (5)\hold\bin\Release\Store.pdb
+E:\C#\新建文件夹 (5)\hold\bin\Release\MdsdkNet.dll
+E:\C#\新建文件夹 (5)\hold\bin\Release\System.Data.OracleClient.dll
+E:\C#\新建文件夹 (5)\hold\bin\Release\System.Transactions.dll
+E:\C#\新建文件夹 (5)\hold\bin\Release\System.EnterpriseServices.dll
+E:\C#\新建文件夹 (5)\hold\bin\Release\System.Web.dll
+E:\C#\新建文件夹 (5)\hold\bin\Release\MdsdkNet.xml
+E:\C#\新建文件夹 (5)\hold\bin\Release\System.EnterpriseServices.Wrapper.dll
+E:\C#\新建文件夹 (5)\hold\obj\Release\ResolveAssemblyReference.cache
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.FrameIn.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmClear.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmClearA.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmDebug.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmDgv2.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmLogin.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmMain.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmMessage.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmQuality.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.frmReceive.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmSxChange.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmSetup.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.InResearch.frmInPlan.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.InResearch.frmInPlanCL.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.InResearch.frmInPlanZF.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.frmCLResearch.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.frmMain.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlan.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanCL.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanZF.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.tl.frmOutPlan.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutCP.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlan.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanCL.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanZF.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.zk.frmOutPlan.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.OutResearch.zt.frmOutPlan.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Forms.frmDgv.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\hStore.Properties.Resources.resources
+E:\C#\新建文件夹 (5)\hold\obj\Release\Store.csproj.GenerateResource.Cache
+E:\C#\新建文件夹 (5)\hold\obj\Release\Store.exe
+E:\C#\新建文件夹 (5)\hold\obj\Release\Store.pdb
+E:\C#\新建文件夹(6)\hold\bin\Release\store.sdf
+E:\C#\新建文件夹(6)\hold\bin\Release\PtxSdkCommon.dll
+E:\C#\新建文件夹(6)\hold\bin\Release\Store.exe
+E:\C#\新建文件夹(6)\hold\bin\Release\Store.pdb
+E:\C#\新建文件夹(6)\hold\bin\Release\MdsdkNet.dll
+E:\C#\新建文件夹(6)\hold\bin\Release\System.Data.OracleClient.dll
+E:\C#\新建文件夹(6)\hold\bin\Release\System.Transactions.dll
+E:\C#\新建文件夹(6)\hold\bin\Release\System.EnterpriseServices.dll
+E:\C#\新建文件夹(6)\hold\bin\Release\System.Web.dll
+E:\C#\新建文件夹(6)\hold\bin\Release\MdsdkNet.xml
+E:\C#\新建文件夹(6)\hold\bin\Release\System.EnterpriseServices.Wrapper.dll
+E:\C#\新建文件夹(6)\hold\obj\Release\ResolveAssemblyReference.cache
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.FrameIn.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmClear.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmClearA.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmDebug.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmDgv2.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmLogin.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmMain.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmMessage.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmQuality.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.frmReceive.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmSxChange.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmSetup.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.InResearch.frmInPlan.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.InResearch.frmInPlanCL.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.InResearch.frmInPlanZF.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.frmCLResearch.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.frmMain.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlan.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanCL.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.frmOutPlanZF.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.tl.frmOutPlan.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutCP.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlan.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanCL.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.zc.frmOutPlanZF.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.zk.frmOutPlan.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.OutResearch.zt.frmOutPlan.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Forms.frmDgv.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\hStore.Properties.Resources.resources
+E:\C#\新建文件夹(6)\hold\obj\Release\Store.csproj.GenerateResource.Cache
+E:\C#\新建文件夹(6)\hold\obj\Release\Store.exe
+E:\C#\新建文件夹(6)\hold\obj\Release\Store.pdb

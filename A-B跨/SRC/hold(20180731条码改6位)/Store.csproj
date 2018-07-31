@@ -1,0 +1,487 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A68517C5-29B0-47F6-B997-3B3B6FAAC97E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>hStore</RootNamespace>
+    <AssemblyName>Store</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>Store</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <ApplicationIcon>baosight.ico</ApplicationIcon>
+    <StartupObject>hStore.Global</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CE_Net20, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="MdsdkNet, Version=8.0.42743.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\MdsdkNet.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE\System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataGrid" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business.cs">
+    </Compile>
+    <Compile Include="common.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRC.cs" />
+    <Compile Include="DataSource\DBopt.cs" />
+    <Compile Include="Forms\common.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\FrameIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrameIn.Designer.cs">
+      <DependentUpon>FrameIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmClear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmClear.designer.cs">
+      <DependentUpon>frmClear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmClearA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmClearA.Designer.cs">
+      <DependentUpon>frmClearA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDebug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDebug.Designer.cs">
+      <DependentUpon>frmDebug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDgv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDgv2.Designer.cs">
+      <DependentUpon>frmDgv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMessage.Designer.cs">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmQuality.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmQuality.designer.cs">
+      <DependentUpon>frmQuality.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSlabClear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSlabClear.Designer.cs">
+      <DependentUpon>frmSlabClear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSxChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSxChange.Designer.cs">
+      <DependentUpon>frmSxChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSetup.Designer.cs">
+      <DependentUpon>frmSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmWriteOff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmWriteOff.Designer.cs">
+      <DependentUpon>frmWriteOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InResearch\frmInPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InResearch\frmInPlan.Designer.cs">
+      <DependentUpon>frmInPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InResearch\frmInPlanCL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InResearch\frmInPlanCL.Designer.cs">
+      <DependentUpon>frmInPlanCL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InResearch\frmInPlanZF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InResearch\frmInPlanZF.Designer.cs">
+      <DependentUpon>frmInPlanZF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmCLResearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmCLResearch.Designer.cs">
+      <DependentUpon>frmCLResearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmOutPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmOutPlan.Designer.cs">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmOutPlanCL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmOutPlanCL.Designer.cs">
+      <DependentUpon>frmOutPlanCL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmOutPlanZF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\frmOutPlanZF.Designer.cs">
+      <DependentUpon>frmOutPlanZF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\tl\frmOutPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\tl\frmOutPlan.Designer.cs">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zc\frmOutCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zc\frmOutCP.Designer.cs">
+      <DependentUpon>frmOutCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zc\frmOutPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zc\frmOutPlan.Designer.cs">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zc\frmOutPlanCL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zc\frmOutPlanCL.Designer.cs">
+      <DependentUpon>frmOutPlanCL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zc\frmOutPlanZF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zc\frmOutPlanZF.Designer.cs">
+      <DependentUpon>frmOutPlanZF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReceive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmReceive.Designer.cs">
+      <DependentUpon>frmReceive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zk\frmOutPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zk\frmOutPlan.Designer.cs">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zt\frmOutPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OutResearch\zt\frmOutPlan.Designer.cs">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDgv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDgv.designer.cs">
+      <DependentUpon>frmDgv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FrameIn.resx">
+      <DependentUpon>FrameIn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmClear.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmClearA.resx">
+      <DependentUpon>frmClearA.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDebug.resx">
+      <DependentUpon>frmDebug.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDgv2.resx">
+      <DependentUpon>frmDgv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMessage.resx">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmQuality.resx">
+      <DependentUpon>frmQuality.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmReceive.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReceive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSlabClear.resx">
+      <DependentUpon>frmSlabClear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSxChange.resx">
+      <DependentUpon>frmSxChange.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSetup.resx">
+      <DependentUpon>frmSetup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmWriteOff.resx">
+      <DependentUpon>frmWriteOff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InResearch\frmInPlan.resx">
+      <DependentUpon>frmInPlan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InResearch\frmInPlanCL.resx">
+      <DependentUpon>frmInPlanCL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InResearch\frmInPlanZF.resx">
+      <DependentUpon>frmInPlanZF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\frmCLResearch.resx">
+      <DependentUpon>frmCLResearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\frmOutPlan.resx">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\frmOutPlanCL.resx">
+      <DependentUpon>frmOutPlanCL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\frmOutPlanZF.resx">
+      <DependentUpon>frmOutPlanZF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\tl\frmOutPlan.resx">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\zc\frmOutCP.resx">
+      <DependentUpon>frmOutCP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\zc\frmOutPlan.resx">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\zc\frmOutPlanCL.resx">
+      <DependentUpon>frmOutPlanCL.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\zc\frmOutPlanZF.resx">
+      <DependentUpon>frmOutPlanZF.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\zk\frmOutPlan.resx">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutResearch\zt\frmOutPlan.resx">
+      <DependentUpon>frmOutPlan.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDgv.resx">
+      <DependentUpon>frmDgv.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Script\AllCode.cs" />
+    <Compile Include="Socket.cs" />
+    <Compile Include="Storage.cs" />
+    <Compile Include="Web References\SlabWebservice\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="baosight.ico" />
+    <Content Include="config.xml">
+    </Content>
+    <Content Include="store.sdf">
+    </Content>
+    <None Include="Web References\SlabWebservice\PileData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SlabWebservice\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SlabWebservice\ServiceSlabYard.disco" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Forms\ClassDiagram1.cd" />
+    <None Include="Web References\SlabWebservice\ServiceSlabYard.wsdl" />
+    <None Include="Web References\WebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebService\Service.disco" />
+    <None Include="Web References\WebService\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://192.168.0.117/Service.asmx">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WebService\</RelPath>
+      <UpdateFromURL>http://192.168.0.117/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://192.168.0.80/SlabYard/">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\SlabWebservice\</RelPath>
+      <UpdateFromURL>http://192.168.0.80/SlabYard/</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v3.5'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+</Project>

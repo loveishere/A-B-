@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.baosight.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.baosight.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.baosight.com/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pram" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateUserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrentTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCurrentTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCurrentTimeResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersionInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersionInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVersionInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersionInfo2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="versionno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersionInfo2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVersionInfo2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersionInfoNone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVersionInfoNoneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVersionInfoNoneResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateVersionInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="versionno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileinfo" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="groupname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateVersionInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateVersionInfoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserInf">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="yhfz" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUserInfResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUserInfResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetImpPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pram" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetImpPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Store_GetImpPlanResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetImpPlanByPage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pram" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="beginno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetImpPlanByPageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Store_GetImpPlanByPageResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetImpAccOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pram" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetImpAccOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Store_GetImpAccOrderResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetImpAccOrderByPage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pram" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="beginno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetImpAccOrderByPageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Store_GetImpAccOrderByPageResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetExpPlan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pram" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetExpPlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Store_GetExpPlanResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetExpPlanByPage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pram" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="beginno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetExpPlanByPageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Store_GetExpPlanByPageResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetExpAccOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pram" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetExpAccOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Store_GetExpAccOrderResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetExpAccOrderByPage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pram" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="beginno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Store_GetExpAccOrderByPageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Store_GetExpAccOrderByPageResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrentTime" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrentTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetVersionInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetVersionInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionInfo2SoapIn">
+    <wsdl:part name="parameters" element="tns:GetVersionInfo2" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionInfo2SoapOut">
+    <wsdl:part name="parameters" element="tns:GetVersionInfo2Response" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionInfoNoneSoapIn">
+    <wsdl:part name="parameters" element="tns:GetVersionInfoNone" />
+  </wsdl:message>
+  <wsdl:message name="GetVersionInfoNoneSoapOut">
+    <wsdl:part name="parameters" element="tns:GetVersionInfoNoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateVersionInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateVersionInfo" />
+  </wsdl:message>
+  <wsdl:message name="UpdateVersionInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateVersionInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUserInfSoapIn">
+    <wsdl:part name="parameters" element="tns:getUserInf" />
+  </wsdl:message>
+  <wsdl:message name="getUserInfSoapOut">
+    <wsdl:part name="parameters" element="tns:getUserInfResponse" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetImpPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:Store_GetImpPlan" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetImpPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:Store_GetImpPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetImpPlanByPageSoapIn">
+    <wsdl:part name="parameters" element="tns:Store_GetImpPlanByPage" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetImpPlanByPageSoapOut">
+    <wsdl:part name="parameters" element="tns:Store_GetImpPlanByPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetImpAccOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Store_GetImpAccOrder" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetImpAccOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Store_GetImpAccOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetImpAccOrderByPageSoapIn">
+    <wsdl:part name="parameters" element="tns:Store_GetImpAccOrderByPage" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetImpAccOrderByPageSoapOut">
+    <wsdl:part name="parameters" element="tns:Store_GetImpAccOrderByPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetExpPlanSoapIn">
+    <wsdl:part name="parameters" element="tns:Store_GetExpPlan" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetExpPlanSoapOut">
+    <wsdl:part name="parameters" element="tns:Store_GetExpPlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetExpPlanByPageSoapIn">
+    <wsdl:part name="parameters" element="tns:Store_GetExpPlanByPage" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetExpPlanByPageSoapOut">
+    <wsdl:part name="parameters" element="tns:Store_GetExpPlanByPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetExpAccOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:Store_GetExpAccOrder" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetExpAccOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:Store_GetExpAccOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetExpAccOrderByPageSoapIn">
+    <wsdl:part name="parameters" element="tns:Store_GetExpAccOrderByPage" />
+  </wsdl:message>
+  <wsdl:message name="Store_GetExpAccOrderByPageSoapOut">
+    <wsdl:part name="parameters" element="tns:Store_GetExpAccOrderByPageResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input message="tns:UpdateUserSoapIn" />
+      <wsdl:output message="tns:UpdateUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentTime">
+      <wsdl:input message="tns:GetCurrentTimeSoapIn" />
+      <wsdl:output message="tns:GetCurrentTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVersionInfo">
+      <wsdl:input message="tns:GetVersionInfoSoapIn" />
+      <wsdl:output message="tns:GetVersionInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVersionInfo2">
+      <wsdl:input message="tns:GetVersionInfo2SoapIn" />
+      <wsdl:output message="tns:GetVersionInfo2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVersionInfoNone">
+      <wsdl:input message="tns:GetVersionInfoNoneSoapIn" />
+      <wsdl:output message="tns:GetVersionInfoNoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVersionInfo">
+      <wsdl:input message="tns:UpdateVersionInfoSoapIn" />
+      <wsdl:output message="tns:UpdateVersionInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserInf">
+      <wsdl:input message="tns:getUserInfSoapIn" />
+      <wsdl:output message="tns:getUserInfSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpPlan">
+      <wsdl:input message="tns:Store_GetImpPlanSoapIn" />
+      <wsdl:output message="tns:Store_GetImpPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpPlanByPage">
+      <wsdl:input message="tns:Store_GetImpPlanByPageSoapIn" />
+      <wsdl:output message="tns:Store_GetImpPlanByPageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpAccOrder">
+      <wsdl:input message="tns:Store_GetImpAccOrderSoapIn" />
+      <wsdl:output message="tns:Store_GetImpAccOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpAccOrderByPage">
+      <wsdl:input message="tns:Store_GetImpAccOrderByPageSoapIn" />
+      <wsdl:output message="tns:Store_GetImpAccOrderByPageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpPlan">
+      <wsdl:input message="tns:Store_GetExpPlanSoapIn" />
+      <wsdl:output message="tns:Store_GetExpPlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpPlanByPage">
+      <wsdl:input message="tns:Store_GetExpPlanByPageSoapIn" />
+      <wsdl:output message="tns:Store_GetExpPlanByPageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpAccOrder">
+      <wsdl:input message="tns:Store_GetExpAccOrderSoapIn" />
+      <wsdl:output message="tns:Store_GetExpAccOrderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpAccOrderByPage">
+      <wsdl:input message="tns:Store_GetExpAccOrderByPageSoapIn" />
+      <wsdl:output message="tns:Store_GetExpAccOrderByPageSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://www.baosight.com/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="http://www.baosight.com/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentTime">
+      <soap:operation soapAction="http://www.baosight.com/GetCurrentTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersionInfo">
+      <soap:operation soapAction="http://www.baosight.com/GetVersionInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersionInfo2">
+      <soap:operation soapAction="http://www.baosight.com/GetVersionInfo2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersionInfoNone">
+      <soap:operation soapAction="http://www.baosight.com/GetVersionInfoNone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVersionInfo">
+      <soap:operation soapAction="http://www.baosight.com/UpdateVersionInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserInf">
+      <soap:operation soapAction="http://www.baosight.com/getUserInf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpPlan">
+      <soap:operation soapAction="http://www.baosight.com/Store_GetImpPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpPlanByPage">
+      <soap:operation soapAction="http://www.baosight.com/Store_GetImpPlanByPage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpAccOrder">
+      <soap:operation soapAction="http://www.baosight.com/Store_GetImpAccOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpAccOrderByPage">
+      <soap:operation soapAction="http://www.baosight.com/Store_GetImpAccOrderByPage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpPlan">
+      <soap:operation soapAction="http://www.baosight.com/Store_GetExpPlan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpPlanByPage">
+      <soap:operation soapAction="http://www.baosight.com/Store_GetExpPlanByPage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpAccOrder">
+      <soap:operation soapAction="http://www.baosight.com/Store_GetExpAccOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpAccOrderByPage">
+      <soap:operation soapAction="http://www.baosight.com/Store_GetExpAccOrderByPage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://www.baosight.com/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap12:operation soapAction="http://www.baosight.com/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentTime">
+      <soap12:operation soapAction="http://www.baosight.com/GetCurrentTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersionInfo">
+      <soap12:operation soapAction="http://www.baosight.com/GetVersionInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersionInfo2">
+      <soap12:operation soapAction="http://www.baosight.com/GetVersionInfo2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersionInfoNone">
+      <soap12:operation soapAction="http://www.baosight.com/GetVersionInfoNone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVersionInfo">
+      <soap12:operation soapAction="http://www.baosight.com/UpdateVersionInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserInf">
+      <soap12:operation soapAction="http://www.baosight.com/getUserInf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpPlan">
+      <soap12:operation soapAction="http://www.baosight.com/Store_GetImpPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpPlanByPage">
+      <soap12:operation soapAction="http://www.baosight.com/Store_GetImpPlanByPage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpAccOrder">
+      <soap12:operation soapAction="http://www.baosight.com/Store_GetImpAccOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetImpAccOrderByPage">
+      <soap12:operation soapAction="http://www.baosight.com/Store_GetImpAccOrderByPage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpPlan">
+      <soap12:operation soapAction="http://www.baosight.com/Store_GetExpPlan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpPlanByPage">
+      <soap12:operation soapAction="http://www.baosight.com/Store_GetExpPlanByPage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpAccOrder">
+      <soap12:operation soapAction="http://www.baosight.com/Store_GetExpAccOrder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Store_GetExpAccOrderByPage">
+      <soap12:operation soapAction="http://www.baosight.com/Store_GetExpAccOrderByPage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://192.168.0.117/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://192.168.0.117/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
